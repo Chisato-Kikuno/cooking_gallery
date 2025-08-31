@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+html, body {
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+.about-image {
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/back-ground.png");
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+}
+
+
+.about-text {
+  padding: 2rem;
+  text-align: center;
+  color: rgb(32, 24, 1);
+}
